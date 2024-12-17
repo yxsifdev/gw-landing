@@ -1,0 +1,149 @@
+---
+import banner from "@/assets/gw-banner-christmas.webp";
+import icon from "@/assets/gw-ico.webp";
+import Discord from "@/icons/Discord.astro";
+import Link from "@/icons/Link.astro";
+---
+
+<section>
+  <!-- banner-and-icon -->
+  <div class="relative mb-16">
+    <img
+      src={banner.src}
+      alt="banner"
+      class="w-full rounded-lg h-[150px] object-cover shadow-lg shadow-black/50"
+    />
+    <div>
+      <img
+        src={icon.src}
+        alt="icon"
+        class="absolute top-[60%] border-[6px] border-transparent backdrop-blur-md left-[1%] rounded-full size-[110px] shadow-lg shadow-black/50"
+      />
+    </div>
+  </div>
+
+  <!-- info-content -->
+  <!-- p-4 border rounded-lg backdrop-blur-md bg-white/10 border-white/10 -->
+  <div class="space-y-5">
+    <div class="space-y-4">
+      <div>
+        <h2 class="mb-4 text-2xl font-bold lg:text-3xl">Name</h2>
+        <p class="lg:text-lg text-white/80">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+          quasi doloremque voluptates velit, error necessitatibus laborum
+          eligendi excepturi <strong class="text-yellow-400"
+            >autem incidunt nihil temporibus</strong
+          > rem dolore, nesciunt voluptas ratione. Voluptates, voluptate aut! ✨
+        </p>
+      </div>
+
+      <div>
+        <ul class="list-disc list-inside text-white/80 lg:text-lg">
+          <li>
+            Lorem ipsum dolor sit amet <strong class="text-sky-400"
+              >consectetur</strong
+            >, adipisicing elit.
+          </li>
+          <li>
+            Lorem ipsum <strong class="text-sky-400">dolor</strong> sit amet elit.
+          </li>
+          <li>Lorem ipsum dolor sit.</li>
+          <li>
+            Lorem ipsum <strong class="text-sky-400">amet</strong> consectetur elit.
+          </li>
+        </ul>
+      </div>
+
+      <div class="flex flex-wrap gap-4">
+        <a
+          href=""
+          class="inline-flex items-center px-4 py-2 rounded-lg gap-x-2 bg-white/20"
+        >
+          <Link class="size-5" />
+          Link
+        </a>
+        <a
+          href=""
+          class="inline-flex items-center px-4 py-2 rounded-lg gap-x-2 bg-white/20"
+        >
+          <Link class="size-5" />
+          Link
+        </a>
+        <a
+          href=""
+          class="inline-flex items-center px-4 py-2 rounded-lg gap-x-2 bg-white/20"
+        >
+          <Link class="size-5" />
+          Link
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-wrap justify-start gap-4">
+      <div
+        class="flex flex-col items-start max-w-[250px] w-full p-4 border rounded-lg border-[#5865F2]/30 bg-[#5865F2]/30"
+      >
+        <div>
+          <h3 class="text-xl font-bold lg:text-3xl">+296k Miembros</h3>
+          <p class="text-sm font-medium lg:text-lg opacity-70">
+            en <strong>Discord</strong>
+          </p>
+        </div>
+        <br />
+        <a
+          href=""
+          class="inline-flex text-sm lg:text-base items-center px-4 py-2 font-medium rounded-md gap-x-2 bg-[#5865F2]/50 hover:bg-[#5865F2]/70 transition-colors"
+        >
+          <Discord />
+          ¡Únete ahora!
+        </a>
+      </div>
+      <div
+        class="flex flex-col items-start max-w-[250px] w-full p-4 border rounded-lg border-green-500/30 bg-green-500/30"
+      >
+        <div class="">
+          <h3 class="text-xl font-bold lg:text-3xl">+000k Miembros</h3>
+          <p class="text-sm font-medium lg:text-lg opacity-70">
+            en <strong>IDK</strong>
+          </p>
+        </div>
+        <br />
+        <a
+          href=""
+          class="inline-flex items-center px-4 py-2 text-sm font-medium transition-colors rounded-md items-c lg:text-base enter gap-x-2 bg-green-500/50 hover:bg-green-500/70"
+        >
+          <Discord />
+          ¡Entrar ahora!
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="w-full rounded-md">
+  <div>
+    <div class="relative">
+      <img
+        src={banner.src}
+        alt="banner"
+        class="w-full rounded-md h-[150px] object-cover"
+      />
+      <div>
+        <img
+          src={icon.src}
+          alt="banner"
+          class="absolute top-[60%] left-[1%] rounded-full size-24"
+        />
+      </div>
+    </div>
+    <div class="flex items-start justify-between pt-12">
+      <div class="">
+        <h3 class="text-xl font-semibold">Gatitos World</h3>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="" class="p-2 rounded-md bg-green-500/20">X</a>
+        <a href="" class="p-2 rounded-md bg-green-500/20">X</a>
+        <a href="" class="p-2 rounded-md bg-green-500/20">X</a>
+      </div>
+    </div>
+  </div>
+</div> -->
+</section>

@@ -1,0 +1,6 @@
+{
+  "breadcrumbs.enabled": false,
+  "debug.showInlineBreakpointCandidates": true,
+  "debug.showBreakpointsInOverviewRuler": false,
+  "debug.allowBreakpointsEverywhere": false
+}

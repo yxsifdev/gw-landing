@@ -1,7 +1,12 @@
 ---
+import Window from "@/components/Window.astro";
 import Layout from "../layouts/Layout.astro";
+import Header from "@/components/Header.astro";
 ---
 
 <Layout title="Home">
-  <p>Hello world</p>
+  <Header />
+  <main class="px-4 mx-auto my-0 xl:px-0 max-w-7xl">
+    <Window />
+  </main>
 </Layout>
